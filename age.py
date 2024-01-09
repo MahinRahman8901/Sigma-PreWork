@@ -1,7 +1,7 @@
 from datetime import date
 
 def AgeCalculator(caclDate):
-  days = 365.2425
+  days = 365.25
   age = int((date.today() - caclDate).days / days)
   return age
 
